@@ -4,19 +4,18 @@ module.exports = {
     {
       resolve: "gatsby-theme-amaranth",
       options: {},
+      website: {
+        url: "https://www.lcy042000.github.io",
+        // googleAnalytics: "UA-XXXXXXXXX-X",
+      },
+      user: {
+        id: "lcy042000",
+        firstName: "ChoonhYoup",
+        lastName: "Lee",
+        github: "lcy042000",
+        email: "8410294@naver.com",
+        about: "Frontend Developer",
+      },
     },
   ],
-  title: "LEECY",
-  description: "LEECY's Blog",
-  author: "LEECY",
-  siteUrl: "https://lcy042000.github.io",
-  social: {
-    github: "https://github.com/lcy042000",
-  },
-  // icon: // favicon
-  keywords: ["blog"],
-  comment: {},
-  configs: {
-    countOfInitialPost: 10,
-  },
 };
