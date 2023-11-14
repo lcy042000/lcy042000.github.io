@@ -6,10 +6,10 @@
     "examples/amaranth-demo",
     "examples/advanced-demo"
   ],
-  "name": "gatsby-starter-advanced",
-  "description": "GatsbyJS starter that includes examples for advanced use cases.",
+  "name": "LEECY",
+  "description": "LEECY's Blog",
   "version": "4.17.1",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "author": "LEE ChoongYoup <8410294@naver.com>",
   "keywords": [
     "gatsby",
     "gatsby-starter",
