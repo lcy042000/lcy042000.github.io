@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkLEECY=self.webpackChunkLEECY||[]).push([[168],{6533:function(e,n,t){t.r(n);var l=t(7294);n.default=()=>l.createElement("h1",null,"Sample content")}}]);
+//# sourceMappingURL=component---src-pages-example-tsx-c8a3d041ae2797ebb918.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkLEECY=self.webpackChunkLEECY||[]).push([[467],{7938:function(e,t,n){n.r(t);var a=n(7294),l=n(4593),c=n(8694),u=n(4998);t.default=()=>{const e=(0,c.ZR)();return a.createElement(u.Z,null,a.createElement("div",{className:"about-container"},a.createElement(l.q,{title:`About | ${e.website.title}`})))}}}]);
+//# sourceMappingURL=component---themes-amaranth-src-pages-about-tsx-4e9f124cf146d787c59a.js.map
