@@ -8,7 +8,8 @@ const SM_BREAKPOINT = "500px";
 
 export const Wrapper = styled.aside`
   padding: 0 16px;
-
+  width: 100%;
+  max-width: 1024px;
   justify-self: center;
 
   display: grid;
@@ -77,17 +78,13 @@ export const ShareLabel = styled(H3)`
 `;
 
 export const AuthorName = styled(H3)`
-  color: var(--color-primary);
-
-  &::before {
-    content: "by ";
-    color: var(--color-grey-300);
-  }
+  color: var(--color-green-600);
 `;
 
 export const AboutText = styled.div`
   width: 0;
   min-width: 100%;
+  word-break: keep-all;
 
   align-self: center;
 

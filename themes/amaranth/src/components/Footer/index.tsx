@@ -4,7 +4,6 @@ import { useConfig } from "gatsby-theme-advanced";
 
 import UserLinks from "../UserLinks";
 import { Caption, H3 } from "../../theme";
-import { AnimatedLink } from "../Links";
 
 import * as S from "./styles";
 
@@ -18,13 +17,8 @@ const Footer = (): JSX.Element => {
         <UserLinks includeRss />
       </S.LinkGrid>
       <S.Info>
-        <Caption>
-          Based on{" "}
-          <AnimatedLink to="https://github.com/Vagr9K/gatsby-advanced-starter">
-            Gatsby Advanced Starter
-          </AnimatedLink>
-        </Caption>
         <Caption>{config.website.copyright}</Caption>
+        <Caption>made by React.js & gatsby</Caption>
       </S.Info>
     </S.Wrapper>
   );
