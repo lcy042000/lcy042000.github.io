@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import { styles } from "../../theme";
 import { AnimatedLink } from "../Links";
+import useCategoryList from "../../config/useCategoryList";
 
 const DropdownContainer = styled.div`
   position: relative;
@@ -57,23 +58,23 @@ const MenuLabel = styled.span`
   align-items: center;
 `;
 
-const DropdownMenu = (): JSX.Element => (
-  <DropdownContainer>
-    <MenuLabel>
-      POSTS
-      <MenuList>
-        <MenuListItem>
-          <MenuItem to="/">ALL</MenuItem>
-        </MenuListItem>
-        <MenuListItem>
-          <MenuItem to="/category/tech">Projects</MenuItem>
-        </MenuListItem>
-        <MenuListItem>
-          <MenuItem to="/category">Contact</MenuItem>
-        </MenuListItem>
-      </MenuList>
-    </MenuLabel>
-  </DropdownContainer>
-);
+const DropdownMenu = (): JSX.Element => {
+  const categoryList = useCategoryList();
+  return (
+    <DropdownContainer>
+      <MenuLabel>
+        POSTS
+        <MenuList>
+          <MenuListItem>
+            <MenuItem to="/">ALL</MenuItem>
+            {categoryList?.map((category) => (
+              <MenuItem to={`${category}`}>{category.split("/")[2]}</MenuItem>
+            ))}
+          </MenuListItem>
+        </MenuList>
+      </MenuLabel>
+    </DropdownContainer>
+  );
+};
 
 export default DropdownMenu;

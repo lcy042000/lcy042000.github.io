@@ -20,7 +20,7 @@ const config: SiteConfig = {
   // User configuration
   user: {
     about: "안녕하세요. front-end 개발자 이충엽입니다.",
-    avatar: "../../static/avatar/avatar.jpg",
+    avatar: "/avatar/avatar.jpg",
     firstName: "ChoongYoup",
     github: "lcy042000",
     email: "8410294@naver.com",

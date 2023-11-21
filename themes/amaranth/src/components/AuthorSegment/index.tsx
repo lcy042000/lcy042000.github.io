@@ -16,7 +16,7 @@ const AuthorSegment = (): JSX.Element | null => {
   return (
     <S.Wrapper aria-label="About the author">
       <S.Main>
-        <S.Avatar src={config.user.avatar} alt={authorFullName} />
+        <S.Avatar src={config.user.avatar} alt="LEECY" />
         <S.Info>
           <S.AuthorName>{authorFullName}</S.AuthorName>
           <S.AboutText>
