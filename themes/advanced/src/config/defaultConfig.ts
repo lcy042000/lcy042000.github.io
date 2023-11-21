@@ -20,7 +20,7 @@ const config: SiteConfig = {
   // User configuration
   user: {
     about: "안녕하세요. front-end 개발자 이충엽입니다.",
-    avatar: "../../../amaranth/docs/avatar.jpg",
+    avatar: "../../static/avatar/avatar.jpg",
     firstName: "ChoongYoup",
     github: "lcy042000",
     email: "8410294@naver.com",
@@ -42,7 +42,7 @@ const config: SiteConfig = {
   embeddedImageWidth: 768, // MDX embedded image width. Used by gatsby-plugin-image for optimization
   embeddedVideoWidth: 920, // MDX embedded video width in pixels
 
-  iconPath: undefined, // Icon used for manifest icon creation.
+  iconPath: "/logos/leecy-logo-512W.png", // Icon used for manifest icon creation.
   iconList: [], // Icons used for the web manifest. Can be used to override iconPath for a more pixel perfect control.
   iconCachePaths: undefined, // Glob pattern path for the icons to be cached by the gatsby-plugin-offline
 

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { MailSend, Rss } from "@styled-icons/boxicons-regular";
+import { MailSend } from "@styled-icons/boxicons-regular";
 import { Github } from "@styled-icons/boxicons-logos";
 import { StyledIcon } from "@styled-icons/styled-icon";
 
@@ -42,22 +42,11 @@ const renderEmailLink = (config: Readonly<SiteConfig>): JSX.Element => {
   return renderLink(url, "E-Mail", MailSend);
 };
 
-const renderRssLink = (config: Readonly<SiteConfig>): JSX.Element =>
-  renderLink(config.website.rss, "RSS Feed", Rss);
-
 type IconLinksProps = {
-  includeRss?: boolean;
   className?: string;
 };
 
-const defaultProps: IconLinksProps = {
-  includeRss: false,
-};
-
-const UserLinks = ({
-  includeRss,
-  className,
-}: IconLinksProps): JSX.Element | null => {
+const UserLinks = ({ className }: IconLinksProps): JSX.Element | null => {
   const config = useConfig();
 
   if (!config.user) return null;
@@ -66,11 +55,8 @@ const UserLinks = ({
     <LinkGrid className={className}>
       {renderGitHubLink(config)}
       {renderEmailLink(config)}
-      {includeRss && renderRssLink(config)}
     </LinkGrid>
   );
 };
-
-UserLinks.defaultProps = defaultProps;
 
 export default UserLinks;

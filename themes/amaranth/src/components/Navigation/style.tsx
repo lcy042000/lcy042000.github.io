@@ -9,7 +9,6 @@ export const HomeButton = styled(PrimaryLink)`
 
   display: grid;
   grid-auto-flow: column;
-  grid-gap: 16px;
   align-items: center;
 `;
 
@@ -39,10 +38,14 @@ export const SiteTitle = styled.p`
 
 export const NavButton = styled(AnimatedLink)`
   ${styles.ButtonLabel}
+  font-size: 1.5rem;
 
   color: var(--color-text);
-
   &:after {
     margin: 8px 0 0 0;
   }
+`;
+
+export const MenuButton = styled(AnimatedLink)`
+  ${styles.ButtonLabel}
 `;

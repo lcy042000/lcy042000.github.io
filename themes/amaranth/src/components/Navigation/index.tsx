@@ -1,8 +1,9 @@
 import React from "react";
-
 import { useConfig } from "gatsby-theme-advanced";
 
 import * as S from "./style";
+import DropdownMenu from "./DropdownMenu";
+import { LeecyLogo } from "../../icons";
 
 const Navigation = (): JSX.Element => {
   const config = useConfig();
@@ -10,10 +11,11 @@ const Navigation = (): JSX.Element => {
   return (
     <S.Wrapper>
       <S.HomeButton to="/">
+        <LeecyLogo />
         <S.SiteTitle>{config.website.titleShort}</S.SiteTitle>
       </S.HomeButton>
       <S.NavGrid>
-        <S.NavButton to="/">Posts</S.NavButton>
+        <DropdownMenu />
         <S.NavButton noBasePath to="/about">
           About
         </S.NavButton>
