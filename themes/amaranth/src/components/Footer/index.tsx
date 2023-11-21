@@ -14,7 +14,7 @@ const Footer = (): JSX.Element => {
     <S.Wrapper>
       <S.LinkGrid>
         <H3>LINKS</H3>
-        <UserLinks includeRss />
+        <UserLinks />
       </S.LinkGrid>
       <S.Info>
         <Caption>{config.website.copyright}</Caption>

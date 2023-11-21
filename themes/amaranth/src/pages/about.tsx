@@ -9,7 +9,7 @@ import * as S from "../components/AuthorSegment/styles";
 const AboutPage = (): JSX.Element => {
   const config = useConfig();
 
-  if (!config.user) return null;
+  if (!config.user) return <>no user</>;
 
   const authorFullName = `${config.user.firstName} ${config.user.lastName}`;
 
