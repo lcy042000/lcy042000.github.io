@@ -6,6 +6,7 @@ import { breakpoints } from "./Constants";
 
 const MobileH1 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -15,6 +16,7 @@ const MobileH1 = css`
 
 const MobileH2 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 29px;
@@ -23,6 +25,7 @@ const MobileH2 = css`
 `;
 const MobileH3 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -31,6 +34,7 @@ const MobileH3 = css`
 `;
 const MobileH4 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -39,6 +43,7 @@ const MobileH4 = css`
 `;
 const MobileH5 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -47,6 +52,7 @@ const MobileH5 = css`
 `;
 const MobileH6 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -56,6 +62,7 @@ const MobileH6 = css`
 
 const MobileBody = css`
   font-family: "Fira Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -65,6 +72,7 @@ const MobileBody = css`
 
 const MobileCaption = css`
   font-family: "Fira Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -74,6 +82,7 @@ const MobileCaption = css`
 
 const MobileOverline = css`
   font-family: "Fira Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 10px;
@@ -90,6 +99,7 @@ const MobileCode = css`
 
 const DesktopH1 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 47px;
@@ -98,6 +108,7 @@ const DesktopH1 = css`
 
 const DesktopH2 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 39px;
@@ -105,6 +116,7 @@ const DesktopH2 = css`
 `;
 const DesktopH3 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 33px;
@@ -113,6 +125,7 @@ const DesktopH3 = css`
 `;
 const DesktopH4 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 27px;
@@ -121,6 +134,7 @@ const DesktopH4 = css`
 `;
 const DesktopH5 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
@@ -129,6 +143,7 @@ const DesktopH5 = css`
 `;
 const DesktopH6 = css`
   font-family: "Alfa Slab One", serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 19px;
@@ -138,6 +153,7 @@ const DesktopH6 = css`
 
 const DesktopBody = css`
   font-family: "Fira Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -147,6 +163,7 @@ const DesktopBody = css`
 
 const DesktopCaption = css`
   font-family: "Fira Sans", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -307,6 +324,12 @@ const Typography = (): JSX.Element => (
     <Helmet>
       <link
         href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:ital,wght@0,400;0,500;1,400&family=Fira+Code:wght@500&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap"
         rel="stylesheet"
       />
     </Helmet>
