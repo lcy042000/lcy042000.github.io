@@ -31,6 +31,8 @@ export const NavGrid = styled.nav`
 export const SiteTitle = styled.p`
   ${styles.ButtonLabel}
 
+  font-size: 1.5rem;
+
   @media (max-width: 500px) {
     display: none;
   }

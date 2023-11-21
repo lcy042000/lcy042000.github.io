@@ -42,6 +42,7 @@ const Img = styled(SharedImage)`
 `;
 
 const StyledGatsbyImage = styled(GatsbyImage)`
+  width: 50%;
   max-width: 100%;
 
   /* Limit cover image heights */

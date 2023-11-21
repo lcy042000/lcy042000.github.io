@@ -51,7 +51,6 @@ const ArticleIntro = ({ post }: ArticleIntroProps): JSX.Element => {
       <WidthWrapper>
         <Details>
           <H1>{post.title}</H1>
-          <Body>{post.excerpt}</Body>
         </Details>
       </WidthWrapper>
       <Cover>
