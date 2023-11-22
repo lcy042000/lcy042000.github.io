@@ -8,7 +8,7 @@ const config: SiteConfig = {
     name: "LEECY's log", // Website name used for homescreen (PWA) and SEO
     description: "This is LEECY's Blog", // Website description used for RSS feeds/meta description tag
     language: "kr", // Sets the global HTML lang attribute
-    logoUrl: "../advanced/static/logos/leecy-logo-512W.png", // Logo used for SEO
+    logoUrl: "/logos/leecy-logo-512W.png", // Logo used for SEO
     url: "https://lcy042000.github.io", // Domain of your website without the pathPrefix
     rss: "/rss.xml", // Path to the RSS file
     rssTitle: "Gatsby Advanced Starter RSS Feed", // Title of the RSS feedW
@@ -42,7 +42,7 @@ const config: SiteConfig = {
   embeddedImageWidth: 768, // MDX embedded image width. Used by gatsby-plugin-image for optimization
   embeddedVideoWidth: 920, // MDX embedded video width in pixels
 
-  iconPath: "/logos/leecy-logo-512W.png", // Icon used for manifest icon creation.
+  iconPath: undefined, // Icon used for manifest icon creation.
   iconList: [], // Icons used for the web manifest. Can be used to override iconPath for a more pixel perfect control.
   iconCachePaths: undefined, // Glob pattern path for the icons to be cached by the gatsby-plugin-offline
 
