@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 # lcy042000.github.io
 ### Tech 블로그
 
@@ -14,4 +14,4 @@ https://lcy042000.github.io/
 
 템플릿: https://github.com/Vagr9K/gatsby-advanced-starter
 
-</div>
+</div> -->
