@@ -12074,15 +12074,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-catch-links@npm:^4.17.0":
-  version: 4.25.0
-  resolution: "gatsby-plugin-catch-links@npm:4.25.0"
+"gatsby-plugin-catch-links@npm:^5.12.0":
+  version: 5.12.0
+  resolution: "gatsby-plugin-catch-links@npm:5.12.0"
   dependencies:
-    "@babel/runtime": ^7.15.4
+    "@babel/runtime": ^7.20.13
     escape-string-regexp: ^1.0.5
   peerDependencies:
-    gatsby: ^4.0.0-next
-  checksum: d6b3a9061cb2b495eb1e8e47f3b5c7cfcc9abc0c45eb5f3dc36dc8ebdd45cc403336d3a43b221e079e669cc73c4e8e9ac19592203c98a0cc1f70ea2d40728090
+    gatsby: ^5.0.0-next
+  checksum: ff71fecea35ca3a8d015cac527cca2abd089e1a2254242658cecbdd92894b781aad3e4a355a6826ce61bb5ce3edbeafe663878ea37d42b5eedd126f2a572a0d3
   languageName: node
   linkType: hard
 
@@ -12738,7 +12738,7 @@ __metadata:
     fetch-mock: ^9.11.0
     gatsby: ^4.17.1
     gatsby-image: ^3.11.0
-    gatsby-plugin-catch-links: ^4.17.0
+    gatsby-plugin-catch-links: ^5.12.0
     gatsby-plugin-compile-es6-packages: ^2.1.1
     gatsby-plugin-disqus: ^1.2.4
     gatsby-plugin-feed: ^4.17.0
@@ -12923,7 +12923,7 @@ __metadata:
     eslint-plugin-testing-library: ^5.5.1
     gatsby: ^4.17.1
     gatsby-image: ^3.11.0
-    gatsby-plugin-catch-links: ^4.17.0
+    gatsby-plugin-catch-links: ^5.12.0
     gatsby-plugin-feed: ^4.17.0
     gatsby-plugin-google-gtag: ^4.17.0
     gatsby-plugin-image: ^2.17.0
