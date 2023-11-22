@@ -1,7 +1,10 @@
 backend:
-  name: git-gateway # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
-  branch: master # Branch to update
-  repo: vagr9k/gatsby-advanced-starter # Repo for pushing new commits. Make sure to replace with your repo!
+  name: github # Refer to https://www.netlifycms.org/docs/authentication-backends/ for auth backend list and instructions
+  branch: main # Branch to update
+  repo: lcy042000/lcy042000.github.io # Repo for pushing new commits. Make sure to replace with your repo!
+  # api_root: https://api.github.com
+  # base_url: https://api.netlify.com
+  # auth_endpoint: auth
 
 media_folder: static/assets
 public_folder: assets
