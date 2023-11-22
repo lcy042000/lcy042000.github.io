@@ -8,7 +8,7 @@ const config: SiteConfig = {
     name: "LEECY's log", // Website name used for homescreen (PWA) and SEO
     description: "This is LEECY's Blog", // Website description used for RSS feeds/meta description tag
     language: "kr", // Sets the global HTML lang attribute
-    logoUrl: "/logos/leecy-logo-512W.png", // Logo used for SEO
+    logoUrl: "../advanced/static/logos/leecy-logo-512W.png", // Logo used for SEO
     url: "https://lcy042000.github.io", // Domain of your website without the pathPrefix
     rss: "/rss.xml", // Path to the RSS file
     rssTitle: "Gatsby Advanced Starter RSS Feed", // Title of the RSS feedW
@@ -20,7 +20,7 @@ const config: SiteConfig = {
   // User configuration
   user: {
     about: "안녕하세요. front-end 개발자 이충엽입니다.",
-    avatar: "/avatar/avatar.jpg",
+    avatar: "../advanced/static/avatar/avatar.jpg",
     firstName: "ChoongYoup",
     github: "lcy042000",
     email: "8410294@naver.com",
