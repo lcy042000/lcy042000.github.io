@@ -11,25 +11,14 @@ const AboutPage = (): JSX.Element => {
 
   if (!config.user) return <>no user</>;
 
-  const authorFullName = `${config.user.firstName} ${config.user.lastName}`;
+  // const authorFullName = `${config.user.firstName} ${config.user.lastName}`;
 
   return (
     <Layout>
       <div className="about-container">
         <Helmet title={`About | ${config.website.title}`} />
       </div>
-      <S.Wrapper aria-label="About the author">
-        <S.Main>
-          <S.Avatar src={config.user.avatar} alt={authorFullName} />
-          <S.Info>
-            <S.AuthorName>{authorFullName}</S.AuthorName>
-            <S.AboutText>
-              <p>{config.user.about}</p>
-            </S.AboutText>
-          </S.Info>
-        </S.Main>
-        <S.Separator />
-      </S.Wrapper>
+      <S.Wrapper aria-label="About the author">준비중입니다.</S.Wrapper>
     </Layout>
   );
 };
