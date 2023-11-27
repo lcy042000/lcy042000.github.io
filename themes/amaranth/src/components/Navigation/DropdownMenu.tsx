@@ -9,17 +9,16 @@ const DropdownContainer = styled.div`
 `;
 
 const MenuItem = styled(AnimatedLink)`
+  list-style: none;
+  padding: 0.125rem 0;
+  display: block;
   text-decoration: none;
   font-size: 0.75em;
+  width: fit-content;
   color: var(--color-text);
   &:hover {
     color: var(--color-primary);
   }
-`;
-
-const MenuListItem = styled.li`
-  list-style: none;
-  padding: 0.25rem 0;
 `;
 
 const MenuList = styled.ul`
@@ -60,17 +59,16 @@ const MenuLabel = styled.span`
 
 const DropdownMenu = (): JSX.Element => {
   const categoryList = useCategoryList();
+
   return (
     <DropdownContainer>
       <MenuLabel>
         POSTS
         <MenuList>
-          <MenuListItem>
-            <MenuItem to="/">ALL</MenuItem>
-            {categoryList?.map((category) => (
-              <MenuItem to={`${category}`}>{category.split("/")[2]}</MenuItem>
-            ))}
-          </MenuListItem>
+          <MenuItem to="/">ALL</MenuItem>
+          {categoryList?.map((category) => (
+            <MenuItem to={`${category}`}>{category.split("/")[2]}</MenuItem>
+          ))}
         </MenuList>
       </MenuLabel>
     </DropdownContainer>
