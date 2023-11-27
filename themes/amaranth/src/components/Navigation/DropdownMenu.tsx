@@ -65,9 +65,13 @@ const DropdownMenu = (): JSX.Element => {
       <MenuLabel>
         POSTS
         <MenuList>
-          <MenuItem to="/">ALL</MenuItem>
+          <li style={{ listStyle: "none" }}>
+            <MenuItem to="/">ALL</MenuItem>
+          </li>
           {categoryList?.map((category) => (
-            <MenuItem to={`${category}`}>{category.split("/")[2]}</MenuItem>
+            <li style={{ listStyle: "none" }}>
+              <MenuItem to={`${category}`}>{category.split("/")[2]}</MenuItem>
+            </li>
           ))}
         </MenuList>
       </MenuLabel>
