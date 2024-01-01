@@ -12170,16 +12170,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-lodash@npm:^5.17.0":
-  version: 5.25.0
-  resolution: "gatsby-plugin-lodash@npm:5.25.0"
+"gatsby-plugin-lodash@npm:^6.13.0":
+  version: 6.13.0
+  resolution: "gatsby-plugin-lodash@npm:6.13.0"
   dependencies:
-    "@babel/runtime": ^7.15.4
+    "@babel/runtime": ^7.20.13
     babel-plugin-lodash: ^3.3.4
     lodash-webpack-plugin: ^0.11.6
   peerDependencies:
-    gatsby: ^4.0.0-next
-  checksum: a4b13de1d7e100b74e0aa2716c14f755b074b5e47a8c76ea20c1fcd83e05f382d8b29e67d37e38041d59dd406bbac48a5ceb1e165ed00fd07a7533d173ee9f3c
+    gatsby: ^5.0.0-next
+  checksum: 661caf3b90349762090cfdba46799803d9413cd9c3ed2c16decedd2a18208b30290753171f4242d402f856b1b9dc905888989c813fae545147d4ca9cd26bd56d
   languageName: node
   linkType: hard
 
@@ -12744,7 +12744,7 @@ __metadata:
     gatsby-plugin-feed: ^4.17.0
     gatsby-plugin-google-gtag: ^4.17.0
     gatsby-plugin-image: ^2.17.0
-    gatsby-plugin-lodash: ^5.17.0
+    gatsby-plugin-lodash: ^6.13.0
     gatsby-plugin-manifest: ^4.17.0
     gatsby-plugin-mdx: ^3.17.0
     gatsby-plugin-netlify-cms: ^6.17.0
@@ -12927,7 +12927,7 @@ __metadata:
     gatsby-plugin-feed: ^4.17.0
     gatsby-plugin-google-gtag: ^4.17.0
     gatsby-plugin-image: ^2.17.0
-    gatsby-plugin-lodash: ^5.17.0
+    gatsby-plugin-lodash: ^6.13.0
     gatsby-plugin-manifest: ^4.17.0
     gatsby-plugin-mdx: ^3.17.0
     gatsby-plugin-netlify-cms: ^6.17.0
